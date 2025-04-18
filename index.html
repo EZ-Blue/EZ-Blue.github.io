@@ -1,76 +1,169 @@
 <!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
   <title>Eric Zhao</title>
-  
   <meta name="author" content="Eric Zhao">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>"> -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="stylesheet.css">
   <link rel="icon" href="images/icons/rocket.svg">
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px" >
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Eric Zhao</name>
-              </p>
-              <p>
-                I am a current M.S. student in Artificial Intelligence Engineering at Carnegie Mellon University, and a <a href="https://www.cmu.edu/graduate/rales-fellows/">Rales Fellow</a> at CMU, a fully funded graduate fellowship for exceptional leaders and innovators in STEM fields.
-                </p>
 
-              <p>
-                I graduated from Carnegie Mellon University with my B.S. in Mechanical Engineering with an Additional Major in Chinese Studies in 2024, where I was also selected as a <a href="https://www.thegatesscholarship.org/scholarship">Gates Scholar (Cohort III)</a>, and a <a href="https://www.cmu.edu/student-success/programs/tartan-scholars.html">Tartan Scholar</a>.   
-                </p>
+  <!-- 1) Tab buttons -->
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event,'Home')" id="defaultOpen">Home</button>
+    <button class="tablinks" onclick="openTab(event,'Projects')">Projects</button>
+    <button class="tablinks" onclick="openTab(event,'Research')">Research</button>
+    <button class="tablinks" onclick="openTab(event,'Hobbies')">Hobbies</button>
+  </div>
 
-              <p>
-                I'm interested in Reinforcement Learning, specifically in the field of controls and robotics. I'm currently working with the <a href="https://safeai-lab.github.io/">Safe AI Lab</a> in integrating LLMs for context awareness and semantic understanding of environments as an extension of their recent research on Multi-Agent locomtion and manipulation, or <a href="https://collaborative-mapush.github.io/">MAPush</a>.
-                </p>
+  <!-- 2) Home content -->
+  <div id="Home" class="tabcontent">
+    <!-- your existing homepage HTML goes here -->
+    <!-- … the <table> with About Me / Research list … -->
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr style="padding:0px" >
+            <td style="padding:0px">
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                <tr style="padding:0px">
+                <td style="padding:2.5%;width:63%;vertical-align:middle">
+                    <p style="text-align:center">
+                    <name>Eric Zhao</name>
+                    </p>
+                    <p>
+                    I am a current M.S. student in Artificial Intelligence Engineering at Carnegie Mellon University, and a <a href="https://www.cmu.edu/graduate/rales-fellows/">Rales Fellow</a> at CMU, a fully funded graduate fellowship for exceptional leaders and innovators in STEM fields.
+                    </p>
+    
+                    <p>
+                    I graduated from Carnegie Mellon University with my B.S. in Mechanical Engineering with an Additional Major in Chinese Studies in 2024, where I was also selected as a <a href="https://www.thegatesscholarship.org/scholarship">Gates Scholar (Cohort III)</a>, and a <a href="https://www.cmu.edu/student-success/programs/tartan-scholars.html">Tartan Scholar</a>.   
+                    </p>
+    
+                    <p>
+                    I'm interested in Reinforcement Learning, specifically in the field of controls and robotics. I'm currently working with the <a href="https://safeai-lab.github.io/">Safe AI Lab</a> in integrating LLMs for context awareness and semantic understanding of environments as an extension of their recent research on Multi-Agent locomtion and manipulation, or <a href="https://collaborative-mapush.github.io/">MAPush</a>.
+                    </p>
+    
+                    <p>
+                    I'm also developing a learning-based control pipeline for transtibial assistive devices, leveraging Reinforcement Learning and Imitation Learning techniques to train humanoid locomotion models in MuJoCo. This work is being conducted under the guidance of Dr. Inseung Kang, director of the <a href="https://metamobility.cmu.edu/">MetaMobility Lab</a> at CMU. 
+                    </p>
+    
+                    <p>
+                    In my undergraduate studies at CMU, I was an active research in biomedical and mechanical engineering as a part of the Computational Engineering and Robotics Lab (CERLAB), directed by Dr. Kenji Shimada. I've conducted studies to determine the relationship between the physical parameters and resulting mechanical properties of lattice structures, and worked with our lab's novel mesh generation software to develop anisotropic lattices for customized transtibial prosthetic liners.
+                    </p>
+    
+                    <p> 
+                    I served as a grader for several undergraduate engineering courses, including Mechanical Design and Numerical Methods.
+                    </p>
+                    </p>
+                    <p style="text-align:center">
+                    <a href="mailto:ericzhao@andrew.cmu.edu">Email</a> &nbsp/&nbsp
+                    <a href="data/Eric_Zhao_AI_ML_Resume.pdf">CV</a> &nbsp/&nbsp
+                    <a href="https://www.linkedin.com/in/eric-zhao2/">Linkedin</a> &nbsp/&nbsp
+                    <a href="https://github.com/EZ-Blue/">Github</a>
+                    </p>
+                </td>
+                <td style="padding:2.5%;width:60%;max-width:60%">
+                    <a href="data/ez.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="data/ez.jpg" class="hoverZoomLink"></a>
+                </td>
+                </tr>
+            </tbody></table>
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                    <heading>Research</heading>
+                    <p>
+                    I'm interested in reinforcement learning, robotics, and product design. I like optimization and working on research and projects that have a tangible impact in industry and in society.
+                    </p>
+                </td>
+                </tr>
+            </tbody></table>
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    
+                        
+                <!-- <tr bgcolor=#eee>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                    <img src="images/qpax.png" alt="b3do" width="160" style="border-style: none">
+                </td>
+                <td width="75%" valign="middle">
+                    <a href="https://github.com/kevin-tracy/qpax">
+                    <papertitle>On the Differentiability of the Primal-Dual Interior-Point Method</papertitle>
+                    </a>
+                    <br>
+                    <strong>Kevin Tracy</strong>,
+                    <a href="https://www.ri.cmu.edu/ri-faculty/zachary-manchester/"> Zac Manchester</a>
+    
+    
+                    <br>
+                    <em>in review</em>
+                    <br>
+                    <a href="https://github.com/kevin-tracy/qpax">code</a> /
+                    <a href="https://arxiv.org/abs/2406.11749">arXiv</a> 
+                    <p>A robust method for computing smooth derivatives through convex optimization problems solved with a primal-dual interior-point method. The associated Python [JAX] package is able to leverage these smooth derivatives to solve a variety of robotics-inspired problems.</p>
+                </td>
+                </tr> -->
+    
+                <tr bgcolor=#eee>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                    <img src="images/demo.gif" alt="b3do" width="160" style="border-style: none">
+                </td>
+                <td width="75%" valign="middle">
+                    <a href="">
+                    <papertitle>Imitation and Reinforcement Learning for Optimal Ankle Prosthesis Control</papertitle>
+                    </a>
+                    <br>
+                    <strong>Eric Zhao</strong>,
+                    <a href="https://www.linkedin.com/in/manuellancastre/"> Manel Lancastre</a>,
+                    <a href="https://www.linkedin.com/in/jonathan-he-628493248/"> Jonathan He</a>,
+                    <a href="https://www.linkedin.com/in/shawnkrishnan/"> Shawn Krishnan</a>,
+    
+                    <br>
+                    <em>in review</em>
+                    <br>
+                    <!-- <a href="https://model-based-plugging.github.io">website</a> /
+                    <a href="https://arxiv.org/abs/2312.09190">arXiv</a>  -->
+                    <p>A comparative study of imitation learning and reinforcement learning techniques in training effective ankle prosthetic controllers for plausible human locomotion, simulated using MuJoCo.</p>
+                </td>
+                </tr>
+    
+                <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                    <img src="images/mapush.png" alt="b3do" width="160" style="border-style: none">
+                </td>
+                <td width="75%" valign="middle">
+                    <a href="">
+                    <papertitle>Multi-Agent Reinforcement Learning with LLMs for Safe Path Planning</papertitle>
+                    </a>
+                    <br>
+                    <strong>Eric Zhao</strong>,
+                    <a href="https://www.linkedin.com/in/gravesreid/"> Reid Graves</a>,
+                    <a href="https://www.linkedin.com/in/michael-chase-allen/"> Michael Chase Allen</a>,
+                    <a href="https://www.linkedin.com/in/jonathanali2025/"> Jonathan Ali</a>,
+                    <a href="https://www.linkedin.com/in/shawnkrishnan/"> Shawn Krishnan</a>
+    
+                    <br>
+                    <em>in review</em>
+                    <br>
+                    <!-- <a href="https://model-based-plugging.github.io">website</a>  -->
+                    <p>A framework for context-aware path planning in multi-agent loco-manipulation scenarios through integration of LLM reasoning to an existing hierarchical multi-agent planning method. Demonstrates improved semantic understanding of obstacles in coordination of quadruped robots in navigation and simple pushing tasks.</p>
+                </td>
+                </tr>
+    
+            </tbody></table>
+  </div>
 
-              <p>
-                I'm also developing a learning-based control pipeline for transtibial assistive devices, leveraging Reinforcement Learning and Imitation Learning techniques to train humanoid locomotion models in MuJoCo. This work is being conducted under the guidance of Dr. Inseung Kang, director of the <a href="https://metamobility.cmu.edu/">MetaMobility Lab</a> at CMU. 
-                </p>
+  <!-- 3) Projects content -->
+  <div id="Projects" class="tabcontent">
+    <h2>Projects</h2>
+    <p>Here’s where you’ll list and describe your projects.</p>
+    <!-- e.g. a grid of cards linking to GitHub demos -->
+  </div>
 
-              <p>
-                In my undergraduate studies at CMU, I was an active research in biomedical and mechanical engineering as a part of the Computational Engineering and Robotics Lab (CERLAB), directed by Dr. Kenji Shimada. I've conducted studies to determine the relationship between the physical parameters and resulting mechanical properties of lattice structures, and worked with our lab's novel mesh generation software to develop anisotropic lattices for customized transtibial prosthetic liners.
-                </p>
-
-              <p> 
-                I served as a grader for several undergraduate engineering courses, including Mechanical Design and Numerical Methods.
-                </p>
-      		</p>
-              <p style="text-align:center">
-                <a href="mailto:ericzhao@andrew.cmu.edu">Email</a> &nbsp/&nbsp
-                <a href="data/Eric_Zhao_AI_ML_Resume.pdf">CV</a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/eric-zhao2/">Linkedin</a> &nbsp/&nbsp
-                <a href="https://github.com/EZ-Blue/">Github</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:60%;max-width:60%">
-              <a href="data/ez.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="data/ez.jpg" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
-              <p>
-                I'm interested in reinforcement learning, robotics, and product design. I like optimization and working on research and projects that have a tangible impact in industry and in society.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-					
-          <!-- <tr bgcolor=#eee>
+  <!-- 4) Research content -->
+  <div id="Research" class="tabcontent">
+    <h2>Research</h2>
+    <!-- you can copy your existing Research <table> into here -->
+    <!-- <tr bgcolor=#eee>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/qpax.png" alt="b3do" width="160" style="border-style: none">
             </td>
@@ -128,7 +221,7 @@
               <a href="https://www.linkedin.com/in/gravesreid/"> Reid Graves</a>,
               <a href="https://www.linkedin.com/in/michael-chase-allen/"> Michael Chase Allen</a>,
               <a href="https://www.linkedin.com/in/jonathanali2025/"> Jonathan Ali</a>,
-              <a href="https://www.linkedin.com/in/shawnkrishnan/"> Shawn Krishnan</a>,
+              <a href="https://www.linkedin.com/in/shawnkrishnan/"> Shawn Krishnan</a>
 
               <br>
               <em>in review</em>
@@ -139,12 +232,28 @@
           </tr>
 
         </tbody></table>
-					
-					
+  </div>
 
-      </td>
-    </tr>
-  </table>
+  <!-- 5) Hobbies & Interests -->
+  <div id="Hobbies" class="tabcontent">
+    <h2>Hobbies &amp; Interests</h2>
+    <p>Mountain biking, travel photography, chess, etc.</p>
+  </div>
+
+  <!-- 6) Tab‐switching script -->
+  <script>
+    function openTab(evt, tabName) {
+      // hide all .tabcontent
+      document.querySelectorAll('.tabcontent').forEach(tc => tc.style.display = 'none');
+      // remove “active” class from all buttons
+      document.querySelectorAll('.tablinks').forEach(btn => btn.classList.remove('active'));
+      // show the one we clicked
+      document.getElementById(tabName).style.display = 'block';
+      evt.currentTarget.classList.add('active');
+    }
+    // open Home by default
+    document.getElementById('defaultOpen').click();
+  </script>
+
 </body>
-
 </html>
